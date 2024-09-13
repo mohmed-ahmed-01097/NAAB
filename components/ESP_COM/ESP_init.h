@@ -21,6 +21,7 @@ extern "C" {
 #endif
 
 void ESP_ChipInfo(void);
+void ChipID(void);
 
 #ifdef __cplusplus
 }

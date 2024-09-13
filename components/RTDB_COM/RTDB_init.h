@@ -12,7 +12,7 @@
 extern "C" {
 #endif
 
-void RTDB_Init(void);
+void RTDB_Init(void *pvParameters);
 
 #ifdef __cplusplus
 }

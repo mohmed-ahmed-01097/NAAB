@@ -20,8 +20,11 @@
 #include <string.h>
 #include "lwip/err.h"
 #include "lwip/sys.h"
+#include "esp_sleep.h"
 
 #include "esp_wifi_types.h"
+
+#define SLEEP_DURATION_MS 100  // Duration for light sleep
 
 #ifdef __cplusplus
 extern "C" {
